@@ -1,10 +1,17 @@
-import { Button } from "react-bootstrap";
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="outline-primary">PRIMAL</Button>{" "}
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route index element={<Home/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
