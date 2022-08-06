@@ -1,18 +1,26 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-
-
+import About from "./pages/about"
+import NavbarHeader from './components/navbarHeader/navbarHeader';
+import "./App.css"
+import { useNavigate } from "react-router-dom";
+import Details from './pages/details';
 
 
 
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route index element={<Home/>}/>
-    </Routes>
-    </BrowserRouter>
+    <NavbarHeader />
+    <main>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/details/:id" element={<Details />} />
+      </Routes>
+    </main>
+  </BrowserRouter>
   );
 }
 
