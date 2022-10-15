@@ -1,9 +1,9 @@
 
 
 
-const About=()=>{
+const About= () => {
     return(
-        <h1>sefsscsccs</h1>
+        <h1>About page</h1>
     )
 }
 
