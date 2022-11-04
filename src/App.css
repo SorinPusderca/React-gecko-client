@@ -6,3 +6,66 @@ iframe {
   width: 100%;
   border: none;
 }
+
+body{
+  background-color: lightslategray
+}
+
+#nav_Bar{
+  background-color:  #212529;
+}
+
+h1{
+  text-shadow: 5px 5px 5px #212529;
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin :auto;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: darkslategrey;
+}
+button{
+  border-radius: 5px;
+}
+button:visited{
+  color: #212529;
+}
+
+/*/////////////////////////// LOGIN ///////////////////// */
+
+
+
+#log_in{
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin :auto;
+  text-align: center;
+  color: whitesmoke;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: darkslategrey;
+}
+h3{
+  color: #212529;
+  margin:auto;
+  margin-top: 30px;
+}
+.logIn{
+  margin: auto;
+  text-align: center;
+}
+.inputU_P{
+  border-radius: 5px;
+}
+
+.btn_log_in{
+  margin-top: 10px;
+  width: 100px;
+}
